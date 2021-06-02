@@ -1,0 +1,254 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-navbar {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background-color: #3b4252;
+  color: #eceff4;
+}
+
+.user-img {
+  width: 298px;
+  height: 298px;
+  margin: 60px 76px;
+  margin-bottom: 40px;
+}
+
+.profile-data {
+  margin: 0 25px;
+}
+
+.user-name {
+  margin: 0;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 50px;
+}
+
+.user-username {
+  margin: 0;
+  font-size: 28px;
+  font-style: italic;
+  line-height: 34px;
+}
+
+.user-bio {
+  color: #8190a5;
+  font-size: 18px;
+  font-style: unset;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.user-ranks {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-style: italic;
+  justify-content: space-between;
+}
+
+.user-ranks img {
+  width: 30px;
+  height: 30px;
+}
+
+.user-ranks i {
+  padding-right: 8px;
+}
+
+.user-ranks-followers,
+.user-ranks-following,
+.user-ranks-stars {
+  display: flex;
+  align-items: center;
+}
+
+.user-information {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  font-size: 28px;
+}
+
+.user-information i {
+  padding-right: 20px;
+}
+
+.user-information a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: #eceff4;
+}
+
+.user-information-organization,
+.user-information-location,
+.user-information-email,
+.user-information-website,
+.user-information-twitter {
+  padding-bottom: 15px;
+}
+
+.back-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 35px;
+
+  text-decoration: none;
+  background-color: #eceff4;
+  border-radius: 5px;
+  width: 192px;
+  height: 50px;
+
+  color: #3b4252;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: italic;
+  width: 192px;
+  text-align: center;
+}
+
+.profile-reporitories {
+  flex-grow: 2;
+  margin: 10px 60px;
+}
+
+.profile-reporitory-card {
+  display: flex;
+  flex-direction: column;
+  color: #3b4252;
+  padding-bottom: 30px;
+}
+
+.profile-reporitory-card p {
+  margin: 0;
+}
+
+.repository-name {
+  font-size: 24px;
+  text-decoration: none;
+  color: #3b4252;
+}
+
+.repository-description {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.repository-status {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  color: #8190a5;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.repository-status i {
+  padding-right: 10px;
+}
+
+.fa-circle {
+  font-size: 8px;
+  padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .profile-reporitories {
+    margin: 10px 10px;
+    width: 367px;
+  }
+
+  .profile-navbar {
+    width: 350px;
+  }
+
+  .profile-data {
+    margin: 0 15px;
+  }
+
+  .user-img {
+    width: 298px;
+    height: 298px;
+    margin: 60px 26px;
+    margin-bottom: 40px;
+  }
+
+  .user-information {
+    font-size: 20px;
+  }
+
+  .user-ranks-followers,
+  .user-ranks-following,
+  .user-ranks-stars {
+    flex-direction: column;
+  }
+
+  .ul-container {
+    padding-left: 20px;
+    width: 330px;
+  }
+}
+
+@media (max-width: 568px) {
+  .profile-container {
+    flex-direction: column;
+  }
+
+  .profile-navbar {
+    width: 100%;
+  }
+
+  .user-img {
+    margin: 15px 11px;
+  }
+
+  .profile-data {
+    margin: 0 10px;
+  }
+
+  .user-name {
+    margin: 0;
+    font-size: 30px;
+    line-height: 20px;
+  }
+
+  .user-username {
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .user-information {
+    margin: 40px 0;
+  }
+
+  .user-information i {
+    padding-right: 20px;
+  }
+
+  .profile-reporitories {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .profile-reporitory-card p {
+    margin: 0;
+  }
+
+  ul {
+    padding-inline-start: unset;
+    margin: 0 10px;
+    width: 100%;
+  }
+
+  p {
+      margin: 10px 0;
+  }
+}

@@ -14,12 +14,12 @@ Este projeto foi criado usando o Boilerplate [Create React App](https://github.c
 ### PRÉ REQUISITOS:
 
 * **`NodeJS`** - versão *14.2.0* ou superior;
-* **`nmp`** - versão *7.15.0* ou superior;
+* **`npm`** - versão *7.15.0* ou superior;
 * **`yarn`** - (opção ao `npm`) - versão *1.22.4* ou superior;
 
 Para a instalação do projeto, uma vez que se fez o fork ou o download do projeto em sua máquina, acessar a pasta *`'desafio-react'`* e rodar o comando **`npm install`** através do terminal e serão baixadas e instaladas todas as dependências necessárias para o uso da aplicação.
 
-Uma vez que a instalação tenha sido concluída, basta rodar o comando **`npm start`** no terminal e o servidor de desenvolvimento será iniciado e irá abrir uma janela do navegador com a página inicial da aplicação. Este servidor tem "auto-reload", ou seja, toda a alteração que for feita no projeto, será carragada automaticamente.
+Uma vez que a instalação tenha sido concluída, basta rodar o comando **`npm start`** no terminal e o servidor de desenvolvimento será iniciado abrindo em seguida uma janela do navegador com a página inicial da aplicação. Este servidor tem "auto-reload", ou seja, toda a alteração que for feita no projeto, será carragada automaticamente.
 
 ## `Build para deploy`
 

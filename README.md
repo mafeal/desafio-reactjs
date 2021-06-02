@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# *___ SEARCH DEV ___ *
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Consulte o repositório de seus Dev's favoritos
 
-## Available Scripts
+Projeto desenvolvido à partir do [desafio-reactjs](https://github.com/devMozao/desafio-reactjs), oferecido gentilmente por [devMozao](https://github.com/devMozao) (Diogo Fonseca), com o objetivo de permitir que desenvolvedores iniciantes da comunidade FrontEnd possam testar seus conhecimentos e avaliar o seu nível na área.
 
-In the project directory, you can run:
+Trata-se de uma aplicação que permite entrar com o nome de um usuário do GitHub na página inicial e listar seus dados e repositórios que são públicos, requisitados à partir da Api disponibilizada pelo próprio GitHub (veja a documentação [aqui](https://docs.github.com/en/rest
+))
 
-### `yarn start`
+Este projeto foi criado usando o Boilerplate [Create React App](https://github.com/facebook/create-react-app).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## `Instalação do projeto`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### PRÉ REQUISITOS:
 
-### `yarn test`
+* **`NodeJS`** - versão *14.2.0* ou superior;
+* **`nmp`** - versão *7.15.0* ou superior;
+* **`yarn`** - (opção ao `npm`) - versão *1.22.4* ou superior;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para a instalação do projeto, uma vez que se fez o fork ou o download do projeto em sua máquina, acessar a pasta *`'desafio-react'`* e rodar o comando **`npm install`** através do terminal e serão baixadas e instaladas todas as dependências necessárias para o uso da aplicação.
 
-### `yarn build`
+Uma vez que a instalação tenha sido concluída, basta rodar o comando **`npm start`** no terminal e o servidor de desenvolvimento será iniciado e irá abrir uma janela do navegador com a página inicial da aplicação. Este servidor tem "auto-reload", ou seja, toda a alteração que for feita no projeto, será carragada automaticamente.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## `Build para deploy`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para rodar o build para fazer o deploy da aplicação, basta rodar na pasta do projeto o comando **`npm build`**, e será criada uma pasta build com o projeto otimizado, pronto para o deploy.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## `NPM ou YARN`
 
-### `yarn eject`
+Pode-se usar o gerenciador de sua preferência, pois tanto o `NPM` quanto o `YARN` são aceitos pelas dependências utilizadas, sem problemas, mas é recomendável que, uma vez escolhido um deles, use apenas o escolhido, pois pode dar problemas de scripts no desenvolvimento e no build.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## CONSIDERAÇÕES FINAIS
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A stack que escolhi para realizar esse projeto foi o uso de ReactJS, através do boilerplate `Create-React-APP`, estilizado por `CSS puro` e com requisição para a API via `Fetch API`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Escolhi essa stack, pela simplicidade do projeto, em termos de estilos, tendo sido resolvido basicamente com Flexbox, sem a necessidade de uso algum pré-processador de CSS. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Em relação à requisição, usei Fetch API, pois atende bem sem a necessidade de usar alguma biblioteca adicional, reduzindo o número de dependências.

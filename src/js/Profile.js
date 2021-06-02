@@ -69,6 +69,7 @@ export default function Profile() {
             twitter: data.twitter_username,
             repos: data.public_repos,
             stars: "0",
+            html_url: data.html_url,
           });
         });
     }
@@ -81,7 +82,7 @@ export default function Profile() {
         <img className="user-img" src={user.avatar} alt="User" />
         <section className="profile-data">
           <p className="user-name">{user.name}</p>
-          <p className="user-username">@{user.login}</p>
+          <a className="user-username" target="_blank" href={user.html_url}>@{user.login}</a>
           <p className="user-bio">{user.bio}</p>
           <section className="user-ranks">
             <div className="user-ranks-followers">

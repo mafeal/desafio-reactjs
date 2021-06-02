@@ -32,6 +32,8 @@
 
 .user-username {
   margin: 0;
+  text-decoration: none;
+  color: #eceff4;
   font-size: 28px;
   font-style: italic;
   line-height: 34px;
